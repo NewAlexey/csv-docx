@@ -107,8 +107,31 @@ button:focus-visible {
     height: 300px;
     border-style: dotted;
     border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
 }
 
 .dropzone_active {
     border-color: red;
+}
+
+.month-input__container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.month-input__container label {
+    cursor: pointer;
+}
+
+.month-input__container label:hover {
+    color: blue;
+}
+
+.month-input {
+    cursor: pointer;
 }
